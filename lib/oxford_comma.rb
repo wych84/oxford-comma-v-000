@@ -7,6 +7,6 @@ def oxford_comma(array)
 end
 
 def oxford_comma(array)
- return array.join(",") and #{ last_elem }")
+ return array.join("#{ array_without_last_element.join(',') } and #{ last_elem }")
 end
 
