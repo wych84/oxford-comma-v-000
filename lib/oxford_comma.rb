@@ -1,12 +1,8 @@
 def oxford_comma(array)
- return array.join
-end
-
-def oxford_comma(array)
- return array.join(" and ") 
-end
-
-def oxford_comma(array)
- return array.join("#{ array_without_last_element.join(',') } and #{ last_elem }")
-end
+  if array.size <= 1 
+    return array.join
+  elsif array.size == 2 
+    return array.join(" and ")
+  else
+    
 
