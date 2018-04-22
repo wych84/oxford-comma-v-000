@@ -8,4 +8,5 @@ if array.size == 1
     new_string = array.join(", ")
     new_string << ", and #{last_word}"
 end
+end
 
